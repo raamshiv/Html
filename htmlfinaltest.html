@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        form{
+            background-color: aqua;
+            border: 2px solid bisque;
+            width: 300px; 
+            padding: 10px;
+        }
+        h3{
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form name="form">
+        <h3>simple calculator</h3>
+        <input type="text" name="result">
+        <br><br>
+<input type="button" value="1" onclick="form.result.value=form.result.value+'1'">
+
+<input type="button" value="2"  onclick="form.result.value=form.result.value+'2'">
+
+<input type="button" value="3" onclick="form.result.value=form.result.value+'3'">
+
+
+<input type="button" value="+"  onclick="form.result.value=form.result.value+'+'">
+<br><br>
+
+<input type="button" value="4" onclick="form.result.value=form.result.value+'4'">
+
+<input type="button" value="5" onclick="form.result.value=form.result.value+'5'">
+
+<input type="button" value="6" onclick="form.result.value=form.result.value+'6'">
+
+<input type="button" value="-" onclick="form.result.value=form.result.value+'-'">
+<br><br>
+
+<input type="button" value="7" onclick="form.result.value=form.result.value+'7'">
+
+<input type="button" value="8" onclick="form.result.value=form.result.value+'8'">
+
+<input type="button" value="9" onclick="form.result.value=form.result.value+'9'">
+
+<input type="button" value="*" onclick="form.result.value=form.result.value+'*'">
+<br><br>
+
+<input type="button" value="0" onclick="form.result.value=form.result.value+'0'">
+
+<input type="button" value="/" onclick="form.result.value=form.result.value+'/'">
+
+<input type="button" value="%" onclick="form.result.value=form.result.value+'%'">
+
+<input type="button" value="=" onclick="form.result.value=eval(form.result.value)">
+<br><br>
+<input type="button" id="clear" value="clearall" onclick="form.result.value=''">
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
